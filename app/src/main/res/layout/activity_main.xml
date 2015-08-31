@@ -1,0 +1,54 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTutActivity"
+    android:id="@+id/tutLayout">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:fontFamily="123Marker"
+        android:textColor="@android:color/black"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="123Marker"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:background="#FF3300"/>
+
+    <ImageView
+        android:id="@+id/candyInJar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="178dp"
+        android:layout_x="149dp"
+        android:layout_y="167dp"
+        android:src="@drawable/u2" />
+
+    <ImageView
+        android:id="@+id/candyOut1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="94dp"
+        android:layout_x="489dp"
+        android:layout_y="347dp"
+        android:src="@drawable/u10" />
+
+    <ImageView
+        android:id="@+id/candyOut2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="544dp"
+        android:layout_y="346dp"
+        android:src="@drawable/u4" />
+
+</AbsoluteLayout>
+
