@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.Rect;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
@@ -126,8 +127,9 @@ public class MainActivity extends Activity {
         private void setSameAbsoluteLocation(View v1, View v2) {
             AbsoluteLayout.LayoutParams alp2 = (AbsoluteLayout.LayoutParams) v2.getLayoutParams();
             setAbsoluteLocation(v1, alp2.x, alp2.y);
+            Log.d("hh", "ghj");
+
         }
     }
-
 
 }
